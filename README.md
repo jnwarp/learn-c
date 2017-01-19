@@ -21,3 +21,23 @@ int main()
 }
 ```
 
+### Variables
+
+- int
+- double
+- float
+
+```c
+#include <stdio.h>
+
+int main() {
+	int a = 1;
+	float b = 2.1;
+	
+	double sum;
+	sum = a + b;
+
+	printf("Sum is %f.", sum);
+	return 0;
+}
+```
