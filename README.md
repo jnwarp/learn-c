@@ -37,7 +37,17 @@ int main() {
 	double sum;
 	sum = a + b;
 
-	printf("Sum is %f.", sum);
+	printf("Sum of %d + %f is %f.", a, b, sum);
+	return 0;
+}
+```
+
+### Arrays
+```c
+int main() {
+	int num_array[10];
+	num_array[0] = 1;
+	printf("1st element: %d", num_array[0]);
 	return 0;
 }
 ```
